@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.logo{
+    width: 4vw;
+    padding: 0 40px;
+}
+.nav a {
+    text-decoration: none;
+    padding: 0 20px ;
+    color: rgb(80, 80, 80);
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav a:hover {
+    color: black;
+}
+.nav a:active{
+    color: black;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.03);
+}
+
+/*    main content            */
+
+.main-content{
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    margin-bottom: 0;
+}
+
+.left-sec{
+    padding: 40px 30px;
+    text-align: left;
+    margin-left: 50px;
+}
+.left-sec h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: black;
+    margin-top: 50px;
+}
+.left-sec p {
+    font-size: 18px;
+    color: rgb(116, 116, 116);
+    text-align: left;
+}
+.discription{
+    margin-top: 70px;
+}
+.left-sec h2{
+    font-size: 20px;
+    font-weight: 6500;
+    color: rgb(26, 26, 26);
+    margin-top: 50px;
+}
+
+
+.right-sec img{
+    width: 90%;
+    object-fit: cover;
+    margin-top: auto;
+    padding: 0;    height: 98%;
+
+    margin: 0;
+    
+}
+
+
+.footer{
+    text-align: center;
+    padding-top: 30px;
+}
+.footer a{
+    text-decoration: none;
+    color: #333;
+    font-size: 22px;
+    margin: 0 20px;
+}
+.footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+.footer p{
+    padding-bottom: 15px;
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        display: none;
+    }
+
+    .logo {
+        width: 20vw;
+        margin-bottom: 20px;
+    }
+
+    .nav a {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left-sec {
+        padding: 20px;
+        margin-left: 0;
+    }
+
+    .left-sec h1 {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+
+    .left-sec p {
+        font-size: 14px;
+    }
+
+    .left-sec h2 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .right-sec img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer a {
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+}
